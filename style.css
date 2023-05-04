@@ -1,0 +1,49 @@
+.fondo {
+    color: white;
+    background-color: rgb(104, 105, 107);
+    background-image: url("/1ra_entrega/media/ba1.jpg");
+    background-repeat: no-repeat;
+    background-size:cover; 
+    background-position:center;
+    background-blend-mode: multiply;
+
+
+    padding-top: 500px;
+    padding-bottom: 300px;
+    padding-right: 80px;
+    padding-left: 1200px; 
+
+}
+
+.btn-g {
+    color: white;
+    display: inline-block;
+    background-color: green;
+    margin: 0px 1px;
+    text-decoration: none;
+    padding: 10px; 
+}
+ .btn-g:hover{
+    background-color: rgb(46, 186, 46);
+ }
+  
+
+.bordes {
+    
+    margin-right: 200px;
+    margin-left: 200px; 
+}
+  
+.btn-b {
+    color: white;
+    display: inline-block;
+    background-color: rgb(54, 190, 228);
+    margin: 3px 5px;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+
+
+}
+   
