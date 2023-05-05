@@ -3,11 +3,11 @@
     background-color: rgb(104, 105, 107);
     background-image: url("/1ra_entrega/media/ba1.jpg");
     background-repeat: no-repeat;
-    background-size:cover; 
+    background-size:auto; 
     background-position:center;
     background-blend-mode: multiply;
     overflow: hidden;
-    height: 100vh;
+    height: 20vh;
 
     padding-top: 500px;
     padding-bottom: 500px;
