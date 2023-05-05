@@ -20,9 +20,12 @@
     color: white;
     display: inline-block;
     background-color: green;
+    border: 1px;
+    
     margin: 0px 1px;
     text-decoration: none;
     padding: 10px; 
+    cursor: pointer;
 }
  .btn-g:hover{
     background-color: rgb(46, 186, 46);
@@ -45,6 +48,7 @@
     padding-right: 10px;
     
 }
+
   
 .container_1 {
     display: grid;
