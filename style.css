@@ -6,11 +6,12 @@
     background-size:cover; 
     background-position:center;
     background-blend-mode: multiply;
-
+    overflow: hidden;
+    height: 100vh;
 
     padding-top: 500px;
-    padding-bottom: 300px;
-    padding-right: 80px;
+    padding-bottom: 500px;
+    padding-right: 100px;
     padding-left: 1200px; 
 
 }
@@ -43,7 +44,21 @@
     padding-left: 10px;
     padding-right: 10px;
     
+}
+  
+.container_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 50vh;
+}
 
+.left{background: url(media/honolulu.jpg)center;
+    background-size: cover;
+}
+
+.right {background-color: rgb(65, 65, 70);
 
 }
-   
+
+
+
