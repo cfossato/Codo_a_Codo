@@ -1,3 +1,6 @@
+
+
+
 window.addEventListener('DOMContentLoaded', function() {
     var cantidadInput = document.getElementById('exampleInputCantidad');
     var categoriaSelect = document.getElementById('exampleInputCategoria');
