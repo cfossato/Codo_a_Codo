@@ -16,7 +16,7 @@
     />
     <script src="script.js"></script>
     <!--css-->
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="style.css" />
     <!--animate.css-->
     <link
       rel="stylesheet"
@@ -78,13 +78,13 @@
           </div>
           <div>
             <div class="d-grid gap-2 d-flex mx-auto">
-            <div class="col-md-6" id="cantidad">
+            <div class="col-md-6" >
               <label for="Cantidad" class="form-label">Cantidad</label>
-              <input name="cantidad" class="form-control"  placeholder="Cantidad">
+              <input name="cantidad" class="form-control"  placeholder="Cantidad" id="cantidad">
             </div>
-            <div class="col-md-6" id="categoria">
+            <div class="col-md-6" >
               <label for="Categoria" class="form-label">Categoría</label>  
-          <select class="form-select" name="categoria">  
+          <select class="form-select" name="categoria" id="categoria">  
             <option value="estudiante">Estudiante</option>
             <option value="trainee">Trainee</option>
             <option value="junior">Junior</option>
@@ -92,10 +92,10 @@
            </div>
         </div>
         <div id="resultado">
-        <div class="alert alert-primary text-start mt-2" name="total">Total a pagar $</div>
+        <div class="alert alert-primary text-start mt-2" name="total" id="total">Total a pagar $</div>
         <div class="d-grid gap-2 d-flex mx-auto">
-          <button type="reset" id="borrar" class="btn btn-success col-6" >Borrar</button>
-          <button type="submit" id="resumen"  class="btn btn-success col-6" >Resumen</button>
+          <button type="reset" id="reset" class="btn btn-success col-6" >Borrar</button>
+          <button type="submit" id="submit"  class="btn btn-success col-6" >Resumen</button>
         </div>
       </div>
        </div>

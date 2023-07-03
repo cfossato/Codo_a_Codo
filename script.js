@@ -1,6 +1,8 @@
 
 
+
  function calcularTotal(cantidad, categoria) {
+    
     let precioEntrada = 200;
     let estudiante = 0.2;
     let trainee = 0.5;
@@ -17,18 +19,28 @@
 
     return total;
 }
-
-let formulario = document.getElementById("form");
-let cantidad = document.getElementById("cantidad");
-let categoria = document.getElementById("categoria");
-let divResultado = document.querySelector("resultado");
-
-formulario.addEventListener("reset", () => {
-    divResultado.textContent = "Total a pagar $";
+document.addEventListener('DOMContentLoaded', function() {
+ 
+    let divResultado = document.getElementById("total");
+    let resetButton= document.getElementById("reset")
+    resetButton.addEventListener("click", () => {
+       
+        
+        divResultado.textContent = "Total a pagar $";
+    })
+    let submitButton= document.getElementById("submit")
+    submitButton.addEventListener("click", (e) => {
+        e.preventDefault()
+        
+        const cantidad = document.getElementById("cantidad");
+        const categoria = document.getElementById("categoria");
+        divResultado.textContent = "Total a pagar $ " + calcularTotal(cantidad.value, categoria.value)
+ 
+     })
 });
 
-formulario.addEventListener("submit", (evento) => {
-    evento.preventDefault();
-    divResultado.textContent = "Total a pagar $ " + calcularTotal(cantidad.value, categoria.value);
-}); 
+
+
+
+
 
